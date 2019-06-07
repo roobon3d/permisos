@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="CUENTA">
+        <menu>
+            <item
+                android:orderInCategory="0"
+                android:title="Cuenta"
+                android:icon="@drawable/perfil"/>
+
+        </menu>
+    </item>
+
+    <item android:title="FOTO">
+        <menu>
+            <item
+                android:orderInCategory="10"
+                android:title="Foto"
+                android:icon="@drawable/photoimage"/>
+
+        </menu>
+    </item>
+    <item android:title="RED">
+        <menu>
+            <item
+                android:orderInCategory="20"
+                android:title="Red"
+                android:icon="@drawable/network"/>
+
+        </menu>
+    </item>
+
+</menu>
