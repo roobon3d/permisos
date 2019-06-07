@@ -14,7 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
 
-import com.example.ejemploscftic.R;
+//import com.example.ejemploscftic.R;
 
 //IMPORTANTE ANIADIR LOS PERMISOS DE RED <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 //LISTA COMPLETA DE PERMISOS https://stackoverflow.com/a/36937109/4067559 PELIGROSOS Y NO
@@ -79,7 +79,7 @@ public class RedDisponibleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_red_disponible);
+        setContentView(R.layout.activity_red);
 
 
         RadioButton rbci = findViewById(R.id.tienes_internet);
